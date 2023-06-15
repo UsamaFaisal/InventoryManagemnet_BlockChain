@@ -1,0 +1,106 @@
+.app {
+    overflow-x: hidden;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Apply styles to the table headers */
+  .table th {
+    background-color: #343a40;
+    color: white;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Apply alternating row colors to the table */
+  .table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Apply styles to the table cells */
+  .table td {
+    padding: 8px;
+  }
+  .add-product-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .add-product-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .add-product-form .form-label {
+    font-weight: bold;
+  }
+  
+  .add-product-form .form-control {
+    border-radius: 4px;
+  }
+  
+  .add-product-form .btn-primary {
+    margin-top: 10px;
+  }
+  .add-product-card {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .card-title {
+    text-align: center;
+  }
+  
+  @media (max-width: 576px) {
+    .add-product-card {
+      margin-top: 20px;
+    }
+  }
+  
+  form-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    border: dotted #F55A00 5vw;
+    margin: 0 30%;
+    padding: 10vw;
+    position: relative;
+  }
+  
+  .form-box input,
+  .form-box textarea {
+    display: block;
+    width: 100%;
+    padding: .5rem .8rem .5rem .8rem;
+    margin: .9vw 0;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  .form-box label{
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    margin: 0 0 2vh 0;
+  }
+  .form-box h5{
+    font-size: 35px ;
+    text-align: center;
+  
+    margin: 0 0 .5vh 50;
+  }
+  .form-box{
+    min-width: 100%;
+    height: 100vh;
+   
+    /* border: 1px solid red; */
+    margin: 0vw;
+    padding: 5vw ;
+    position:relative; 
+    /* position:relative for .prevBtn and .nextBtn position:absolute; */
+  }
